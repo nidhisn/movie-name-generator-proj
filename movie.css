@@ -31,7 +31,14 @@ h1 {
     color: transparent;
 }
 
-.container img{
+.screen{
+    position:relative;
+    width : 700px ;
+ 
+
+}
+.screen img{
+   z-index:2;
     width : 700px ;
 }
 
@@ -53,19 +60,25 @@ h1 {
     color: #FFF; 
 }
 
-#movieName {
-    margin-top: 20px;
-    font-size: 24px;
-    font-weight: bold;
-    color:#4A55A2;
-    animation: fadeIn 0.5s ease;
+.poster{
+    position:absolute;
+    top:36%;
+    left:14%;
+    width : 543px ;
+    height:350px;
+    z-index:3;
+    background-color: blue;
+
+
 }
 
-@keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
+.poster img{
+    width : 543px ;
+    height:350px;
+  z-index:3;
+    
 }
+
+
+
+
