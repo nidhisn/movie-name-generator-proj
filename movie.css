@@ -1,8 +1,6 @@
-/* movie.css */
-
 body {
     font-family: Arial, sans-serif;
-    background-color: #4A55A2;
+    background-color:black;
     
     background-size: cover;
     background-position: center;
@@ -10,43 +8,50 @@ body {
 
 .container {
     position:absolute;
-    max-width: 400px;
-    margin: 0 auto;
+   
+    margin: 60px;
     top:50%;
     left:50%;
     transform: translate(-50%, -50%);
     text-align: center;
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.8);
-    border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  
 }
 
 h1 {
-    margin-top: 0;
-    color: #4A55A2;
-    font-family: 'Arial', sans-serif;
-    font-size: 28px;
+    
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-size: 34px;
+}
+
+.gradient-text {
+    background-image: linear-gradient(90deg, rgb(95, 201, 250), rgb(250, 139, 159));
+    background-clip: text;
+    -webkit-background-clip: text; /* For Safari support */
+    color: transparent;
+}
+
+.container img{
+    width : 700px ;
 }
 
 #generateBtn {
     margin-top: 20px;
     padding: 10px 20px;
     font-size: 16px;
-    background-color: #7895CB;
-    color: #FFF;
+    background-image: linear-gradient(90deg, rgb(95, 201, 250), rgb(250, 139, 159));
+    color: transparent; 
     border: none;
     border-radius: 10px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    
 }
 
 #generateBtn:hover {
-    background-color: #4A55A2;
+    background-image: linear-gradient(90deg, rgb(74, 85, 162), rgb(146, 149, 211));
+    color: #FFF; 
 }
-
-
-
 
 #movieName {
     margin-top: 20px;
